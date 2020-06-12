@@ -15,6 +15,7 @@ xtrain=data[0:9000,1:]
 train_label=data[0:9000,0]
 clf.fit(xtrain,train_label)
 
+#Test and Debug
 #testing data set
 xtest=data[4000:,1:]
 actual_label=data[4000:,0]
